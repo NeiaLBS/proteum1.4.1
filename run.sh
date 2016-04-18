@@ -1,4 +1,3 @@
-#!/bin/bash
-export PROTEUM14HOME=~/proteum1.4.1/LINUX/bin #alterar caminho
+export PROTEUM14HOME="$(pwd)/LINUX/bin"
 export PATH=$PROTEUM14HOME:$PATH
 $PROTEUM14HOME/interface/proteum
